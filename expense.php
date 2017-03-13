@@ -1,6 +1,6 @@
 <?php
 // Login to mySQL
-$link = mysqli_connect("127.0.0.1", "root", "dell14789632", "berkeleynails");
+$link = mysqli_connect("127.0.0.1", "my_id", "my_pw", "my_db");
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
@@ -8,7 +8,7 @@ if (!$link) {
     exit;
   }
 // Pick Database
-$mydb=mysqli_select_db($link,"berkeleynails");
+$mydb=mysqli_select_db($link,"my_db");
 // Prpcess ACTION form
 $id = $_GET['id'];
 $date = $_GET['date'];
