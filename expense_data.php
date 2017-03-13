@@ -8,7 +8,7 @@ if (!$link) {
     exit;
   }
 // Pick Database
-$mydb=mysqli_select_db($link,"berkeleynails");
+$mydb=mysqli_select_db($link,"my_db");
 // Prpcess ACTION form
 $id = $_GET['id'];
 $date = $_GET['date'];
