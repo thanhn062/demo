@@ -1,0 +1,214 @@
+body {
+  background-color: #E8E8E8;
+  font-size: 20px;
+  margin: 0px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* left-Panek */
+.left_Panel {
+  width: 65%;
+  position: relative;
+  float: left;
+}
+/* right-Panek */
+.right_Panel {
+  width: 17.99%;
+  margin-left: 10px;
+  /*width: 60%;*/
+  position: relative;
+  float: left;
+}
+/* Mid section Wrapper*/
+div.middle_wrapper {
+        width: 89.99%;
+        margin: auto;
+        float: left;
+        position: relative;
+        padding-left: 20px;
+    }
+/* add Sale PROMPT */
+.addSale_prompt, .editSale_prompt {
+  overflow:hidden;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  width: 874px;
+  visibility: hidden;
+  z-index: 100;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #2b2b2b;
+  padding-left: 15px;
+  color: #fff;
+}
+/* PROMT WIN
+.prompt {
+  overflow:hidden;
+  visibility: hidden;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #2b2b2b;
+  padding-left: 15px;
+  color: #fff;
+} */
+
+/*Row Hover Highlight
+table.display tbody tr:nth-child(even):hover td{
+    background-color: #eed369 !important;
+}
+
+table.display tbody tr:nth-child(odd):hover td {
+    background-color: #eed369 !important;
+}*/
+
+/* Main Navigation*/
+#Navigation {
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  z-index: 100;
+  background-color: #394B58;
+}
+/* Navigation -> Menu list */
+.menu_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu_list_active {
+  background: #E8E8E8;
+}
+.menu_list li {
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #E8E8E8;
+}
+.menu_list li:hover {
+  background: #2F3E49;
+}
+/* Column Color*/
+.Sale_Col {
+  background-color: #ADD8E6;
+}
+input[type="text"] {
+  width: 100%;
+}
+.input_table input{
+   text-align:center;
+   font-size: 20px;
+}
+/* Prompt Table */
+table.input_table tr td{
+  padding: 5px;
+}
+/* DELETE EMP PROMPT*/
+.delEmp_prompt {
+  overflow:hidden;
+  position: absolute;
+  top: 200px;
+  width: 200px;
+  visibility: hidden;
+  z-index: 100;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #2b2b2b;
+  padding-left: 15px;
+  color: #fff;
+}
+/* Hover Edit sale */
+td i:nth-child(odd) {
+  color: green;
+}
+/* NO PAYMENT */
+#noPayment {
+  background: #E55451;
+}
+/* TIME STAMP */
+.time_stamp {
+  display: none;
+}
+/* PAGE MENU NAV */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: -160px;
+    top: 0px;
+}
+
+.dropdown-content a {
+    font-size: 18px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+/* ================================== EXPENSE.PHP ============================= */
+.addRow_prompt, .editRow_prompt {
+  overflow:hidden;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  visibility: hidden;
+  z-index: 100;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #2b2b2b;
+  padding-left: 15px;
+  color: #fff;
+}
+
+#cash_pay {
+  background: #98FB98;
+}
